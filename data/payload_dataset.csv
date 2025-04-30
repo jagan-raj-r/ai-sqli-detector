@@ -1,0 +1,21 @@
+payload,label
+' OR '1'='1' --,1
+' OR 1=1 --,1
+"' UNION SELECT 1,2,3 --",1
+admin' --,1
+' OR 'a'='a,1
+' OR 1=1#,1
+' OR 1=1/*,1
+' OR SLEEP(5) --,1
+' OR 1=1 ORDER BY 1 --,1
+' OR EXISTS(SELECT * FROM users) --,1
+john@example.com,0
+hello world,0
+order status,0
+product id 123,0
+feedback form,0
+login details,0
+check availability,0
+search item,0
+contact support,0
+change password request,0
